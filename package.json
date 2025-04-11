@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-data-exporter",
+  "version": "1.0.0",
+  "description": "mongo-exporter is a Node.js tool that allows you to easily export all collections from a MongoDB database into individual JSON files. It connects to your MongoDB instance, retrieves the data from each collection, and saves it in JSON format, making it easy to back up",
+  "main": "export.js",
+  "scripts": {
+    "test": "node export.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahidKhan09/mongodb-data-exporter.git"
+  },
+  "author": "Muhammad Shahid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahidKhan09/mongodb-data-exporter/issues"
+  },
+  "homepage": "https://github.com/ShahidKhan09/mongodb-data-exporter#readme",
+  "dependencies": {
+    "mongodb": "^6.15.0"
+  }
+}
